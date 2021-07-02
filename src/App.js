@@ -38,6 +38,7 @@ render(){
   <h1 style={{fontStyle:'Monster Kit'}}>MONSTERS ROLEDEX</h1>
   <SearchFeild type={property} updateState={(value)=>this.setState({searchFeild:value})}/>
   <CardList name={newMonsters}/>
+  <footer>copyrights@saronsurya01</footer>
   </div>
 }
 }
